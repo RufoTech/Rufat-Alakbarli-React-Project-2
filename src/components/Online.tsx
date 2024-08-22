@@ -17,7 +17,7 @@ const Online:React.FC = () => {
         <div data-aos="fade-up" className="online-left-side col-12 col-md-6">
             <div className="orange-linear"></div>
             <p className='py-2 poppins-bold'>Our Introduction            </p>
-            <h1 className='poppins-bold'>Schedule Your Driving
+            <h1 className='poppins-bold'>Schedulse Your Driving
             Lessons with Us</h1>
             <h4 className='py-3'>Vestibulum odio nisl, euismod sed elit sed <br /> sagittis laoreet lacus.</h4>
             <p  className=''>There are many variations of passages of but majority is have suffered alteration in some form by injected humour or not randomised words. Donec egestas purus eget fringilla.</p>

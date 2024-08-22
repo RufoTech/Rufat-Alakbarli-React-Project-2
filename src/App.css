@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .roboto-bolds {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.navbar-upside-color{
+    background-color: chocolate;
+    height: 10px;
+    width: 100%;
+ 
+}
+.navbar{
+    background-color: #343434;
+    height: 120px ;
+    padding-top: 10px  !important;
+}
+.navbar-location,.navbar-clock,.navbar-mail{
+    display: flex;
+}
+.navbar-location p,.navbar-clock p,.navbar-mail p{
+    margin-left: 5px;
+    color: #B3B3B3;
+    font-size: 14px;
+}
+
+.navbar-icon{
+    margin-top: 4px;
+    color: chocolate;
+    font-size: 18px;
+}
+.navbar-icon-clock{
+    margin-top: 5px;
+    color: chocolate;
+    font-size: 14px;
+}
+
+.navbar-mail p:hover{
+color: chocolate !important;
+transition: .6s ease !important;
+}
+.social-icon{
+    color: #fff;
+}
+.social-icon:hover{
+    color: chocolate !important;
+    transition: .6s ease !important;
+}
+.navbar-2{
+    background-color: transparent !important; 
+    z-index: 99 !important;
+ 
+}
+.online-section{
+    padding-top: 700px;
+}
+.image-slider{
+    background: url('/assets/images/introduction-slider/slider1.jpg') !important;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-position: center !important;
+
+    background-repeat: no-repeat !important;
+   
+
+    
+}
+.image-slider-1{
+    background: url('/assets/images/introduction-slider/slider2.jpg') !important;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-position: center !important;
+
+    background-repeat: no-repeat !important;
+}
+.text{
+  
+    flex-direction: column !important;
+
+    
+}
+.text h3{
+    color: chocolate;
+}
+.nav-link:hover{
+    color: #E16900 !important;
+}
+.mySwiper{
+    position: absolute  !important;
+    z-index: 1 !important;
+    width: 100%;
+    margin-top: -121px;
+}
+.discover-btn{
+    background-color: #FB7500;
+    display: inline-flex;
+    border: 0;
+    color: #fff;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    transition: background-position 0.5s ease; 
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #E16900 50%, #FB7500 50%);
+    background-position: right bottom;
+    
+}
+
+.discover-btn:hover {
+    background-position: left bottom;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: white; 
+    border-radius: 50%; 
+    padding: 30px; 
+    width: 30px !important; 
+    height: 50px !important; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    color: black !important;
+
+  }
+  
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 30px !important; 
+  }
+  .swiper-button-next:hover, .swiper-button-prev:hover{
+    background-color: #E16900;
+    transition: .6s ease;
+    color: #fff !important;
+  }
+.search-icon{
+    font-size: 40px;
+}
+.search-linear{
+    border: 0.5px solid #fff;
+}
+
+.menu{
+    font-size: 40px;
+    border: none !important;
+}
+.menu-buton{
+    background-color: transparent;
+}
+.orange-linear{
+    border: 2px solid orange;
+    width: 30px;
+}
+.online-left-side :nth-child(2){
+    font-size: 18px;
+    color: #737373;
+}
+.online-left-side h4{
+    color: #E16900;
+    margin-top: 30px;
+    font-weight: 400;
+    
+
+}
+.online-left-side p{
+    color: #737373;
+    font-size: 17px;
+
+}
+.car-icon{
+    font-size: 50px;
+   
+}
+.car-logo{
+    background-color: #E16900;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.car-logo:hover{
+    background-color: #000;
+    transition: .6s ease;
+    color: #fff;
+}
+.car-logo-h4{
+    margin-top: -1px !important;
+    font-size: 20px !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    margin-left: 20px;
+}
+.online-right-side img{
+    width: 100%;
+}
+.contact-linear{
+    border: 1.5px solid #dedede;
+    width: 600px;
+}
+.questions{
+    color: #868686;
+}
+body::-webkit-scrollbar {
+    display: none;  
+  }
+@media(min-width:319px ) and (max-width:370px){
+    .social-media-icons{
+       display: none;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+    .text{
+        padding-top: 200px;
+    }
+    .trafic-rules{
+        margin-right: 200px;
+
+    }
+    .trafic-rules{
+        flex-direction: column !important;
+    }
+   
+   .car-logo-and-text{
+    margin-left: 170px
+   }
+   .car-logo-text {
+    padding-top: 42px;
+   }
+   .car-logos{
+    margin-top: 30px;
+   }
+   .car-icon{
+    font-size: 40px;
+   }
+   .car-logo{
+    width: 120px;
+   }
+   .car-logo-h4{
+    font-size: 25px !important;
+    margin-left: 50px;
+   }
+   .online-section{
+    padding-top: 450px;
+}
+.contact-linear{
+    border: 1.5px solid #dedede;
+    width: 200px;
+}
+}
+
+@media (min-width:371px ) and (max-width:767px){
+    .social-media-icons{
+        display: none;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+    .text{
+        padding-top: 240px;
+    }
+    .car-icon{font-size: 30px !important;}
+    .car-logo-text{padding-top: 10px;}
+    .car-logo{width: 70px !important;height: 70px;}
+    .car-logos{margin-top: 10px;}
+    .contact-linear{
+        border: 1.5px solid #dedede;
+        width: 200px;
+    }
+}
+@media(min-width:768px) and (max-width:990px){
+    .social-media-icons{
+        display: none;
+    }
+   
+    .navbar-location p,.navbar-clock p,.navbar-mail p{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .navbar-icon{
+        font-size:30px !important;
+    }
+    .navbar-icon-clock{
+        font-size: 30px;
+    }
+    .navbar{
+        background-color: #343434;
+        height: 170px ;
+        padding-top: 15px  !important;
+    }
+    
+  
+    .mySwiper{
+        margin-top: -239px;
+    }
+   
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+    .text{
+        padding-top: 350px;
+    }
+    .text h3{
+        font-size: 30px;
+    }
+    .text h1{
+        font-size: 45px !important;
+    }
+    .car-icon{
+        font-size: 35px !important;
+
+    }
+    .car-logo{
+        width: 90px;
+        height: 90px;
+    }
+    .contact-linear{
+        display: none;
+    }
+}
+@media(min-width: 991px){
+.navbar-links{
+    display: flex;
+}
+
+.navbar-location,.navbar-clock,.navbar-mail {
+    margin-top: 20px;
+}
+.navbar{
+    height: 60px !important;
+    padding-top: 0px !important;
+}
+.navbar-clock ,.navbar-mail {
+    margin-left: 24px;
+}
+.social-media-icons{
+    font-size: 20px;
+    color: white;
+}
+.social-icon{
+    margin-right: 20px;
+}
+.image-slider{
+    background: url('/assets/images/introduction-slider/slider1.jpg') !important;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.mySwiper {
+    width: 100%;
+    margin-top: -100px;
+    
+  }
+.text h1{
+font-size: 80px;
+font-weight: 1000 !important;
+}
+.text{
+    padding-top: 240px;
+}
+.menu {
+    display: none;
+}
+.online-right-side img{
+    width: 500px;
+}
+.car-logos{
+    margin-left: 35px;
+}
+}
+
+@media(min-width:992px){
+    .online-section{
+        padding-top: 770px;
+    }
+
+    .car-logo-text{
+        padding-top: 24px;
+    }
+    .contact{
+    margin-top: -100px  !important; 
+    }
+    .contact-linear{
+        width: 500px;
+    }
+}

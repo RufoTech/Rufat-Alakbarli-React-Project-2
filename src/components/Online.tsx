@@ -23,7 +23,7 @@ const Online:React.FC = () => {
             <p  className=''>There are many variations of passages of but majority is have suffered alteration in some form by injected humour or not randomised words. Donec egestas purus eget fringilla.</p>
             
             <div className="trafic-rules d-flex align-items-center">
-             <div className="car-logo-and-text d-flex align-items-center">
+             <div data-aos="fade-down" data-aos-duration="1500" className="car-logo-and-text d-flex align-items-center">
              <div className="car-logo ">
               <FaCarOn  className='car-icon'/>
               
@@ -35,7 +35,7 @@ const Online:React.FC = () => {
               </div>
              </div>
              
-             <div className="car-logo-and-text   d-flex aling-items-center ">
+             <div data-aos="fade-up" data-aos-duration="1500" className="car-logo-and-text   d-flex aling-items-center ">
              <div className="car-logo car-logos">
               <MdOutlineEmojiPeople  className='car-icon people-icon'/>
               
@@ -65,8 +65,15 @@ const Online:React.FC = () => {
 
 
         </div>
-        <div  className="online-right-side col-12 col-md-6">
-          <img src="/assets/images/online/rider-teacher.jpg" alt=""  className=''/>
+        <div data-aos="fade-left"  data-aos-duration="1500" className="online-right-side col-12 col-md-6">
+          <img src="/assets/images/online/rider-teacher.jpg" alt=""  className='altdaki-logo'/>
+          <div className="ustdeki-logo d-flex align-items-center">
+          <img src="/assets/images/online/image-1.jpg" alt="" className='ustdeki-logo-png' />
+          <h3 className='more-than'>More than
+8,800 license
+issued</h3>
+
+          </div>
 
         </div>
         <div className="contact">

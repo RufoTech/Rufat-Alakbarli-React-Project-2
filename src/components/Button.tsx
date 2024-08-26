@@ -7,7 +7,7 @@ klassAdi:string
 const Button:React.FC<buttonProps> = ({inTextBtn,klassAdi}) => {
   return (
     <div>
-        <button className={klassAdi}>{inTextBtn}</button>
+        <button data-aos="fade-up" data-aos-duration="3000" className={klassAdi}>{inTextBtn}</button>
         
         </div>
   )

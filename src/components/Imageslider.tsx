@@ -21,11 +21,11 @@ const Imageslider:React.FC = () => {
 
 <SwiperSlide className='siper'> <div className='image-slider'>
         <div className="container">
-            <div data-aos-duration="3000" className="text d-flex align-items-center justify-content-center flex-direction-column">
-                <h3 className='rubik'>Get Driving Lessons For Skills</h3>
-                <h1  className='text-light roboto-bolds py-4'>We’re Here To Make <br /> You Expert Drivers  </h1>
+            <div  className="text d-flex align-items-center justify-content-center flex-direction-column">
+                <h3 data-aos="fade-up" data-aos-duration="2500" className='rubik'>Get Driving Lessons For Skills</h3>
+                <h1 data-aos="fade-down" data-aos-duration="2000"  className='text-light roboto-bolds py-4'>We’re Here To Make <br /> You Expert Drivers  </h1>
 
-                <Button inTextBtn='DISCOVER MORE' klassAdi='discover-btn roboto-bolds'/>
+                <Button  inTextBtn='DISCOVER MORE' klassAdi='discover-btn roboto-bolds'/>
               
                 
             </div>
@@ -39,8 +39,8 @@ const Imageslider:React.FC = () => {
 <SwiperSlide> <div className='image-slider-1'>
         <div className="container">
             <div className="text d-flex align-items-center justify-content-center flex-direction-column">
-                <h3 className='rubik'>Get Driving Lessons For Skills</h3>
-                <h1 className='text-light roboto-bolds py-4'><span className='px-5'>Learn To Drive</span><br /> With Confidence  </h1>
+                <h3 data-aos="fade-up" data-aos-duration="2500" className='rubik'>Get Driving Lessons For Skills</h3>
+                <h1 data-aos="fade-down" data-aos-duration="2000" className='text-light roboto-bolds py-4'><span className='px-5'>Learn To Drive</span><br /> With Confidence  </h1>
                 <Button inTextBtn='DISCOVER MORE' klassAdi='discover-btn roboto-bolds'/>
 
                 

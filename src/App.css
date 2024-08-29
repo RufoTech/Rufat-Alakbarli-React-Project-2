@@ -208,8 +208,49 @@ transition: .6s ease !important;
   }
   
 
+  .nav-link {
+    position: relative;
+    text-decoration: none; /* Varsayılan alt çizgiyi kaldır */
+    color: #fff; /* Link rengi */
+    padding: 10px 15px; /* Padding ayarları */
+  }
   
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Çizgiyi ortadan başlatır */
+    bottom: 0;
+    width: 0; /* Başlangıçta çizgi görünmez */
+    height: 2px; /* Çizgi yüksekliği */
+    background-color: #fff; /* Çizgi rengi */
+    transform: translateX(-50%); /* Ortadan hizalar */
+    transition: width 0.3s ease; /* Çizginin genişleme efekti */
+  }
   
+  .nav-link:hover::after {
+    width: 100%; /* Hover durumunda çizgi tam genişlikte görünür */
+  }
+  .footer-deneme{
+    position: relative;
+    text-decoration: none;
+
+  }
+  .footer-deneme::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    color: #E16900;
+    height: 5px;
+    transition: width 0.3s ease;
+  }
+  .footer-deneme::after{
+    width: 100%;
+  }
+  .footer-deneme:hover::after{
+    width: 100%;
+  }
 .orange-linear{
     border: 2px solid orange;
     width: 30px;

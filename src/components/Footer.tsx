@@ -48,9 +48,9 @@ const Footer:React.FC = () => {
 
                     </div>
                     <div className="col-12 col-md-4">
-                        <h6 className='text-light'>Terms & Condition
+                        <a href='' className='text-light footer-deneme'>Terms & Condition
 Privacy Policy
-Help</h6>
+Help </a>
 
                     </div>
                 </div>
